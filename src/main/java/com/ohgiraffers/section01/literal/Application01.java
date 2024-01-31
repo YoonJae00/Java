@@ -31,6 +31,8 @@ public class Application01 {
         System.out.println(true);
         System.out.println(false);          //true 혹은 false 값을 논리형이라고 한다.
 
+        // 수정 확인용
+
 
     }
 }
