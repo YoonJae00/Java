@@ -91,7 +91,7 @@ public class Application02 {
 //        System.out.println(true * false);
 //        System.out.println(true % false);
 //        System.out.println(true / false);
-
+        System.out.println("a");
         System.out.println("================ 논리와 문자열의 값 연산 ================");
         System.out.println(true + "a");
 //        System.out.println(true - "a"); 논리와 문자는 왜안댐 ㅇㅇ
