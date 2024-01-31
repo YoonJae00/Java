@@ -25,6 +25,8 @@ public class Application03 {
                                                                  일어나서 결과가 1020이 된다.*/
         System.out.println("10과 20의 합 : " + 10 + 20);       // why? 문자열이 연산방향 때문에 붙어진다.
 
+        //수정 확인용
+
 
 
 
