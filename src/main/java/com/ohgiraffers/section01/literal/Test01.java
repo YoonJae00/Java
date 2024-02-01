@@ -23,9 +23,11 @@ public class Test01 {
         System.out.println(num1.charAt(2)-'1');
         System.out.println('a');
 
-        char q = 'a';
+        int a;
+        a=123123123;
 
-        System.out.println((int)q);
+        System.out.println((char)a);
 
+        System.out.println(false+"a");
     }
 }
