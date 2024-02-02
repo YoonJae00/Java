@@ -30,7 +30,8 @@ public class Application02 {
         System.out.println(123 * 0.5);
         System.out.println(123 / 0.5);
         System.out.println(123 % 0.5);
-
+        System.out.println(100 / 0.3);
+        System.out.println(100 % 0.3);
         // 목차. 문자의 연산
         // 목차. 2-1. 문자와 문자의 연산
         System.out.println("================= 문자와 문자의 연산 =================");
@@ -56,8 +57,10 @@ public class Application02 {
         System.out.println('a' + 1.0);
         System.out.println('a' - 1.0);
         System.out.println('a' * 2.0);
-        System.out.println('a' / 2.0);
-        System.out.println('a' % 2.0);
+        System.out.println('a' / 1.5);
+        System.out.println('a' % 1.5);
+        System.out.println( 97 / 1.5);
+        System.out.println( 97 % 1.5);
 
         /* 필기.
                 여기서 결론은 문자는 내부적으로 숫자 취급을 한다는 것이다.
