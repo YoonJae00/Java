@@ -11,4 +11,8 @@ public class Test01 {
 
     }
 
+    int sum(int a,int b) {
+        return a+b;
+    }
+
 }
