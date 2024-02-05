@@ -7,7 +7,7 @@ public class Test {
         boolean myAge = !true;
 
         System.out.println("내나이는 맞을까요??? " + myAge );
-
+//
 
     }
 
