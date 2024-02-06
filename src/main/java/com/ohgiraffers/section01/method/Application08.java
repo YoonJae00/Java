@@ -16,8 +16,8 @@ public class Application08 {
 
         System.out.println("10과 20의 합 : " + Application08.sumTwoNumbers(10, 20));
         /* 필기. 동일한 클래스 내에 작성된 static 메소드는 클래스명이 생략 가능하다. */
-        System.out.println("20과 30의 합 : " + sumTwoNumbers(10, 30));      // static 안쓰면 sum~메소드를 못 읽기 떄문에 오류
-                                                                           // static 는 main 메소드전 미리 만들어놓음
+        System.out.println("20과 30의 합 : " + sumTwoNumbers(10, 30));      // static 안쓰면 sumTwoNumbers메소드를 못 읽기 떄문에 오류
+                                                                           // 디버그하면 static 는 main 메소드전 미리 만들어놓음
     }
 
 
