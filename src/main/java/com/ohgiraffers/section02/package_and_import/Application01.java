@@ -1,5 +1,8 @@
 package com.ohgiraffers.section02.package_and_import;
 
+
+import com.ohgiraffers.section01.method.Calculator;
+
 public class Application01  {
 
     public static void main(String[] args) {
@@ -16,6 +19,6 @@ public class Application01  {
         com.ohgiraffers.section01.method.Calculator calc = new com.ohgiraffers.section01.method.Calculator();
         int min = calc.minNumberOf(30, 20);
 
-
+        Calculator app = new Calculator();
     }
 }
