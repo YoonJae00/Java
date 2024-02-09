@@ -76,7 +76,7 @@ public class GuessNumber {
         }
 
 
-        public static void guessCorrect () {
+        public static void guessCorrect (a) {
 
             System.out.println("ㅎㅇㅎㅇㅎㅇㅎㅇ");
         }
