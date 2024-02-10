@@ -12,32 +12,61 @@ public class Guessnumber {
         // 1 ~ 100
         int result = (int) (Math.random() * 100) + 1;
         System.out.println("result = " + result);
-
-        System.out.println("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
+        int cnt = 0;
+        System.out.print("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
         int player1 = sc.nextInt();
-        int a = (player1 < result) ? app.guessUp() : (player1 > result) ? app.guessDown() : app.guessCorrect();
+        if (player1 < result){
+            System.out.println("추측한 값보다 큽니다");
+        } else if (player1 > result) {
+            System.out.println("추측한 값보다 작습니다");
+        } else {
+            System.out.println("정답!!");
+        }
 
-
-        System.out.println("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
+        System.out.print("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
         int player2 = sc.nextInt();
-        int b = (player2 < result) ? app.guessUp() : (player2 > result) ? app.guessDown() : app.guessCorrect();
-        int guessReturn2 = (app.guessUp() == 1 && app.guessDown() == 1) ? app.fail() : app.guessCorrect();
+        if (player2 < result){
+            System.out.println("추측한 값보다 큽니다");
+        } else if (player2 > result) {
+            System.out.println("추측한 값보다 작습니다");
+        } else {
+            System.out.println("정답!!");
+        }
 
-        System.out.println("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
+
+        System.out.print("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
         int player3 = sc.nextInt();
-        int c = (player3 < result) ? app.guessUp() : (player3 > result) ? app.guessDown() : app.guessCorrect();
-        int guessReturn3 = (app.guessUp() == 1 && app.guessDown() == 1) ? app.fail(): app.guessCorrect();
+        if (player3 < result){
+            System.out.println("추측한 값보다 큽니다");
+        } else if (player3 > result) {
+            System.out.println("추측한 값보다 작습니다");
+        } else {
+            System.out.println("정답!!");
+        }
 
-        System.out.println("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
+
+        System.out.print("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
         int player4 = sc.nextInt();
-        int guessReturn5 = (app.guessUp() == 1 && app.guessDown() == 1) ? app.fail() : app.guessCorrect();
-        int d = (player4 < result) ? app.guessUp() : (player4 > result) ? app.guessDown() : app.guessCorrect();
+        if (player4 < result){
+            System.out.println("추측한 값보다 큽니다");
+        } else if (player4 > result) {
+            System.out.println("추측한 값보다 작습니다");
+        } else {
+            System.out.println("정답!!");
+        }
 
 
-        System.out.println("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
+
+        System.out.print("1 ~ 100 까지의 숫자중 추측해 보세요 : ");
         int player5 = sc.nextInt();
-        int guessReturn7 = (app.guessUp() == 1 && app.guessDown() == 1) ? app.fail() : app.guessCorrect();
-        int e = (player5 < result) ? app.guessUp() : (player5 > result) ? app.guessDown() : app.guessCorrect();
+        if (player5 < result){
+            System.out.println("추측한 값보다 큽니다");
+        } else if (player5 > result) {
+            System.out.println("추측한 값보다 작습니다");
+        } else {
+            System.out.println("정답!!");
+        }
+
 
 
     }
