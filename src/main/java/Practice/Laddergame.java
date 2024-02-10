@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.Scanner;
 
-public class IndianPoker {
+public class Laddergame {
 
     public static void main(String[] args) {
         // 사다리게임
@@ -20,9 +20,6 @@ public class IndianPoker {
             String result1 = sc.nextLine();
             System.out.print("당첨항목2 입력 : ");
             String result2 = sc.nextLine();
-            int u1 = 1;
-            int u2 = 2;
-
             int r1 = (int) (Math.random() * 2) + 1;
             int r2a = (int) (Math.random() * 2) + 1;
             if (r1 == r2a) {
