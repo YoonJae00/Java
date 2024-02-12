@@ -36,20 +36,19 @@ public class Money {
                 break;
         }
         int finalMonth = 0;
-        if (month == 0) {
-            finalMonth = year * 12;
-        } else {
-            finalMonth = month;
-        }
+        if (month == 0) finalMonth = year * 12;
+        else finalMonth = month;
 
-        if (finalMonth < 12) {
-            System.out.println("당신의 연봉은 " + (int)money + "원 입니다.");
-        } else if (finalMonth >= 12 && finalMonth < 36) {
+
+        if (finalMonth < 12) System.out.println("당신의 연봉은 " + (int)money + "원 입니다.");
+         else if (finalMonth >= 12 && finalMonth < 36) {
             System.out.println("당신의 연봉은 " + (int)(money * 1.1) + "원 입니다.");
         } else if (finalMonth >= 36 && finalMonth < 60) {
             System.out.println("당신의 연봉은 " + (int)(money * 1.15) + "원 입니다.");
         } else if (finalMonth >= 60 && finalMonth < 120) {
             System.out.println("당신의 연봉은 " + (int)(money * 1.2) + "원 입니다.");
+        } else if (finalMonth >= 120) {
+            System.out.println("당신의 연봉은 " + (int)(money * 1.5) + "원 입니다.");
         } else if (finalMonth >= 120) {
             System.out.println("당신의 연봉은 " + (int)(money * 1.5) + "원 입니다.");
         }
