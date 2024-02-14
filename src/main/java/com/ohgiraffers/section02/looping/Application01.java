@@ -15,7 +15,14 @@ public class Application01 {
 //        app2.printGugudanFromTwoToNine();
 //        app2.printUpgradeGugudan();
 //        app2.printStarInputRowTimes();
-        app2.star();
+//        app2.star();
+        B_while app3 = new B_while();
+//        app3.testSimpleWhileStatement();
+//        app3.testWhileExample1();
+//        app3.testWhileExample2();
+        B_doWhile app4 = new B_doWhile();
+//        app4.testSimpledoWhileStatement();
+        app4.testDoWhileExample();
     }
 
 

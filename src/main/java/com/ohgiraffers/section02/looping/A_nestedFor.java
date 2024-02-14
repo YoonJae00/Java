@@ -65,9 +65,8 @@ public class A_nestedFor {
     }
 
     public void star() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("*");
-            }
+        Scanner sc = new Scanner(System.in);
+
 
 
     }
