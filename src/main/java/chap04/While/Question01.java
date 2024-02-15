@@ -30,13 +30,15 @@ public class Question01 {
         /* 1부터 100까지의 숫자 중 짝수만 출력하는 프로그램 */
         int num1 = 1;
         while (num1 <= 100) {
-            if (num1 % 2 == 1){
+            if (num1 % 2 == 1) {
                 num1++;
                 continue;
-            }
-            else System.out.println(num1);
+            } else System.out.println(num1);
             num1++;
         }
+
+
+
 
         /* 사용자로부터 입력받은 숫자의 팩토리얼을 계산하는 프로그램
          *   팩토리얼은 6! = 1 * 2 * 3 * 4 * 5 * 6
@@ -49,15 +51,15 @@ public class Question01 {
         do {
             sum = sum * fact;
             fact--;
-        }while (fact>=1);
+        } while (fact >= 1);
         System.out.println(sum);
 
         /* 0시 0분에서 23시 59분 까지 출력하는 프로그램을 작성해보자 */
 
         int hour = 0;
         int min = 1;
-        while (hour <24 ){
-            while(min<60){
+        while (hour < 24) {
+            while (min < 60) {
                 System.out.println(hour + " 시" + min + " 분");
                 min++;
             }
