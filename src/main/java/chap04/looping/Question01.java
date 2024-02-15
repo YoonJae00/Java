@@ -19,14 +19,14 @@ public class Question01 {
         /* 사용자로부터 입력받은 숫자의 팩토리얼을 계산하는 프로그램
          *   팩토리얼은 6! = 1 * 2 * 3 * 4 * 5 * 6
          * */
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("팩토리얼 정수값 입력 : ");
-//        int fact = sc.nextInt();
-//        int sum = 1;
-//        for (int i = 1; i <= fact; i++) {
-//            sum = i * sum;
-//        }
-//        System.out.println("팩토리얼은 " + fact + "! = " + sum);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("팩토리얼 정수값 입력 : ");
+        int fact = sc.nextInt();
+        int sum = 1;
+        for (int i = 1; i <= fact; i++) {
+            sum = i * sum;
+        }
+        System.out.println("팩토리얼은 " + fact + "! = " + sum);
 
         /* 0시 0분에서 23시 59분 까지 출력하는 프로그램을 작성해보자 */
 
