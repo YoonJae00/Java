@@ -18,5 +18,20 @@ public class Application01 {
         monster3.setName("미라");
         monster3.setHp(300);
 
+//        System.out.println("monster1 name : " + monster1.name);
+//        System.out.println("monster1 hp : " + monster1.hp);
+
+        System.out.println(monster1.getInfo());
+        System.out.println(monster2.getInfo());
+        System.out.println(monster3.getInfo());
+
+        monster3.kinds = "두치";
+//        monster3.setName("두우치");
+        monster3.hp = -10;
+//        monster3.setHp(-100);
+        System.out.println(monster3.getInfo());
+
+        System.out.println("monster3.kinds : " + monster3.kinds);
+        System.out.println("monster3.hp : " + monster3.hp);
     }
 }
