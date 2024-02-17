@@ -21,6 +21,7 @@ public class Application01 {
 
         System.out.println(monster1.getInfo());
 
+        //a
     }
 
 }
