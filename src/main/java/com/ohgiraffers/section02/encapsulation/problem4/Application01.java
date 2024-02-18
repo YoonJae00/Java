@@ -18,7 +18,7 @@ public class Application01 {
 
         monster1.setName("미이라");
         monster1.setHp(-200);
-
+               
         System.out.println(monster1.getInfo());
 
         //a
