@@ -33,6 +33,9 @@ public class Application04 {
             i += 10;
         }
 
+        for(int i = 0 ; i< arr1.length; i++){
+            System.out.println(arr1[i]);
+        }
         for (int i = 0; i < arr2.length; i++) {
             // 필기. 값을 더한 것 같은데 증가되고 있지 않다. 인덱스에 접근해서 값을 변경한게 아니고 꺼낸 값을 복사해서 쓴 것,
             System.out.print(arr2[i] + " ");
