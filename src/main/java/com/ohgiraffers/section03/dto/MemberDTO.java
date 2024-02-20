@@ -33,7 +33,7 @@ public class MemberDTO {
             각 접근자는 하나의 필드에만 접근하도록 한다.
             필드에 접근해서 기록된 값을 return 을 이용하여 반환하며, 이 때 반환 타입은 값의 자료형과 일치
             [표현식]
-            public 반환형 get필드명(){
+            public 반환형 get 필드명(){
                 return 반환값;
             }
             [작성예시]

@@ -27,5 +27,8 @@ public class Application {
         /* 목차. 3. 모든 필드를 초기화하는 생성자를 호출하여 인스턴스 생성 후 필드값 출력 */
         User user3 = new User("user02", "pass02", "김윤재", new Date());
         System.out.println(user3.getInfo());
+
+        Test01 app1 = new Test01();
+        app1.show();
     }
 }

@@ -86,4 +86,7 @@ public class User {
 
         return "User [id = " + this.id + ", pwd = " + this.pwd + ", name = " + this.name + ", enrollDate = " + this.enrollDate + "}";
     }
+
+
+
 }
