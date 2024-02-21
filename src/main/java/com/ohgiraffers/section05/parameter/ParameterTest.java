@@ -66,6 +66,4 @@ public class ParameterTest {
             System.out.print("취미 " + (i + 1) + " : " + hobby[i] + " / ");
         }
     }
-
-
 }

@@ -11,8 +11,7 @@ public class UserDTO {
     private int age;
 
     // 필기. 기본생성자 명시적으로 작성
-    public UserDTO() {
-    }
+    public UserDTO() {}
 
     public UserDTO(String id, String pwd) {
         this.id = id;

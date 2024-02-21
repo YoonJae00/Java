@@ -47,6 +47,7 @@ public class Application01 {
          */
 
         Member member = new Member();
+        System.out.println(member.id);
 
         // 목차. 2-2. 생성된 인스턴스의 초기값 확인하기
         /* 필기.
