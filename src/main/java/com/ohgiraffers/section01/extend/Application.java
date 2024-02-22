@@ -76,5 +76,14 @@ public class Application {
 
         // 목차. 3. 상속은 확장이다. 추가적인 기능도 작성할 수 있다.
         fireCar.sprayWater();
+
+        // 목차. 4. RacingCar 인스턴스 생성 후 메소드 호출 테스트
+        RacingCar racingCar = new RacingCar();
+        System.out.println("==============================");
+        racingCar.soundHorn();
+        racingCar.run();
+        racingCar.soundHorn();
+        racingCar.stop();
+        racingCar.soundHorn();
     }
 }
