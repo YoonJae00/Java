@@ -12,9 +12,13 @@ public class Circle {
         this.radius = radius;
     }
 
+
     public void show() {
         System.out.println("(" + x + y + ")" + radius);
     }
-}
 
+    public int getRadius() {
+        return radius;
+    }
+}
 

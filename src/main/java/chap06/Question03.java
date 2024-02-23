@@ -9,5 +9,7 @@ public class Question03 {
         Song artist1 = new Song("Dancing Queen", "ABBA", 1978, "스웨덴");
         artist1.show();
 
+
     }
+
 }

@@ -7,5 +7,7 @@ public class Question06 {
     //x, y, radius >>2.5 2.7 6
     //x, y, radius >>5.0 2.0 4
     //가장 면적인 큰 원은 (2.5,2.7)6
-    // 배열 내일풀기
+
+
+
 }
