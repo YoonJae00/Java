@@ -10,6 +10,9 @@ public abstract class Product {
     //      하지만 직접적으로 인스턴스를 생성할 수 없다.
 
     public Product(){}
+    public Product(int nonStaticField, int b){
+        this.nonStaticField = nonStaticField;
+    }
 
     // 필기. 추상클래스는 일반적인 메소드도 가질 수 있다.
     public void nonStaticMethod(){

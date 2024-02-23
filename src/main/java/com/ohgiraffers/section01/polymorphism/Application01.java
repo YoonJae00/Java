@@ -91,6 +91,7 @@ public class Application01 {
 
         System.out.println("======= 클래스 형변환 확인 =======");
         ((토끼) a1).점프();
+//        ((토끼) a2).점프();
         ((호랑이) a2).물어뜯기();
 
 //        ((호랑이)a1).물어뜯기();   // 토끼는 호랑이가 될 수 없다. RuntimeException 번역은 문제없지만
@@ -129,6 +130,7 @@ public class Application01 {
 
 //        토끼 r3 = a3;         // 동물이 더 큰타입 down-casting 묵시적 형변환은 불가 ex) int r3 = double a3;
         토끼 r4 = (토끼)a3;     // down-casting 명시적 형변환
+        토끼 r5 = (토끼)new 동물();
 
     }
 }
