@@ -11,15 +11,21 @@ public class StackApp {
         sc.nextLine();
         StringStack SS = new StringStack();
         SS.length(num);
-        String[] strings = new String[num];
+        String[] a = new String[num];
         for(int i = 0 ; i < num ; i++) {
             System.out.print("문자열 입력 >> ");
-            strings[0] = sc.nextLine();
+            a[i] = sc.nextLine();
             SS.capacity();
         }
         System.out.print("문자열 입력 >> ");
         sc.nextLine();
         System.out.println("스택이 꽉 차서 푸시 불가! ");
+
+        System.out.print("스택에 저장된 모든 문자열 팝 : ");
+        for(int i = 0 ; i< a.length; i++){
+            System.out.print( a[i] + " ");
+        }
+
 
 
 
